@@ -1,0 +1,24 @@
+{
+  "name": "svg-interoperability",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "start-local": "webpack-dev-server --env.local --progress --hot --open",
+    "build-clean": "rm -rf dist && mkdir dist",
+    "build-copy": "cp index.html dist",
+    "build-script": "NODE_ENV=production webpack --env.prod=true",
+    "build": "npm run build-clean && npm run build-script && npm run build-copy"
+  },
+  "dependencies": {
+    "deck.gl": "^5.0.0",
+    "luma.gl": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}

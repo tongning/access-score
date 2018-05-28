@@ -1,0 +1,25 @@
+{
+  "name": "sidewalk-viz-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongning/sidewalk-viz-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tongning/sidewalk-viz-node/issues"
+  },
+  "homepage": "https://github.com/tongning/sidewalk-viz-node#readme",
+  "dependencies": {
+    "leaflet-headless": "^0.2.6",
+    "turf": "^3.0.14",
+    "turf-buffer": "^3.0.12",
+    "turf-within": "^3.0.12"
+  }
+}

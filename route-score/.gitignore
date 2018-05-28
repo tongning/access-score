@@ -1,0 +1,6 @@
+settings.conf
+*.json
+*.geojson
+__pycache__
+route_jscode*
+route_geojson*
