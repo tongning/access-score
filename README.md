@@ -40,3 +40,7 @@ And back to Python:
 * `npm start`
 
 A browser window should now open with the visualization!
+
+
+## Demo
+You can try out AccessScore [here](https://tongning.github.io/deckgl/)!
